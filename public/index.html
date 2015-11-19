@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>IoT Insight Survey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="/js/index.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+
+    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/lib/bootstrap-responsive.min.css" rel="stylesheet">
+    <!--<link href="assets/css/custom.css" rel="stylesheet">-->
+    <link href="stylesheets/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <!-- Page Content -->
+    <div class="container-fluid">
+        <div class="row-fluid" style="margin: 0px 10px;">
+            <div class="text-center">
+                <h1>Feedback</h1>
+                <p class="lead" >Your Feedback is valuable ! Thank you for attending the class.</p> 
+            </div>
+      <form class="text-center" role="form" id="frm1" method="get" action ="thankyou.html">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <div class="form-group">
+              <label class="col-md-8 control-label" for="name">Name:</label>
+              <div class="col-md-8">
+                <input id="name" name="name" type="text" placeholder="first name - last name" class="form-control" required="">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label for="email" class="col-md-4 control-label">Email:</label>
+              <div class="col-md-8">
+                <input id="email" name="email" type="text" placeholder="your email address" class="form-control" required="">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label for="company" class="col-md-4 control-label">Company:</label>
+              <div class="col-md-8">
+                <input id="company" name="company" type="text" placeholder="your company name" class="form-control" required="">
+              </div>
+            </div>
+          </div>
+        </br>
+        <div class="text-center">
+          <p>Your evaluation will help us to improve this workshop (4 is the higher grade).</p> 
+        </di>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="radios0">What is your global session evaluation ?</label>
+              <div class="col-md-8">
+                <label class="radio inline" for="radios-0">
+                    <input type="radio" name="radios0" id="radios-0" value="1">
+                      1
+                    </label>
+                    <label class="radio inline" for="radios-1">
+                      <input type="radio" name="radios0" id="radios-1" value="2">
+                      2
+                    </label>
+                    <label class="radio inline" for="radios-2">
+                      <input type="radio" name="radios0" id="radios-2" value="3">
+                      3
+                    </label>
+                    <label class="radio inline" for="radios-3">
+                      <input type="radio" name="radios0" id="radios-3" value="4" checked="checked">
+                      4
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="radios1">How much did you know about IoT before this session ?</label>
+              <div class="col-md-8">
+                <label class="radio inline" for="radios-4">
+                    <input type="radio" name="radios1" id="radios-4" value="1">
+                      1
+                    </label>
+                    <label class="radio inline" for="radios-5">
+                      <input type="radio" name="radios1" id="radios-5" value="2">
+                      2
+                    </label>
+                    <label class="radio inline" for="radios-6">
+                      <input type="radio" name="radios1" id="radios-6" value="3">
+                      3
+                    </label>
+                    <label class="radio inline" for="radios-7">
+                      <input type="radio" name="radios1" id="radios-7" value="4" checked="checked">
+                      4
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="radios2">How much do you know about IoT after this session ?</label>
+              <div class="col-md-8">
+                <label class="radio inline" for="radios-8">
+                    <input type="radio" name="radios2" id="radios-8" value="1">
+                      1
+                    </label>
+                    <label class="radio inline" for="radios-9">
+                      <input type="radio" name="radios2" id="radios-9" value="2">
+                      2
+                    </label>
+                    <label class="radio inline" for="radios-10">
+                      <input type="radio" name="radios2" id="radios-10" value="3">
+                      3
+                    </label>
+                    <label class="radio inline" for="radios-11">
+                      <input type="radio" name="radios2" id="radios-11" value="4" checked="checked">
+                      4
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="radios3">How much did you know about Bluemix and analytics before this session ?</label>
+              <div class="col-md-8">
+                <label class="radio inline" for="radios-12">
+                    <input type="radio" name="radios3" id="radios-12" value="1">
+                      1
+                    </label>
+                    <label class="radio inline" for="radios-13">
+                      <input type="radio" name="radios3" id="radios-13" value="2">
+                      2
+                    </label>
+                    <label class="radio inline" for="radios-14">
+                      <input type="radio" name="radios3" id="radios-14" value="3">
+                      3
+                    </label>
+                    <label class="radio inline" for="radios-15">
+                      <input type="radio" name="radios3" id="radios-15" value="4" checked="checked">
+                      4
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="radios4">How much do you know about Bluemix and analytics after this session ?</label>
+              <div class="col-md-8">
+                <label class="radio inline" for="radios-16">
+                    <input type="radio" name="radios4" id="radios-16" value="1" >
+                      1
+                    </label>
+                    <label class="radio inline" for="radios-17">
+                      <input type="radio" name="radios4" id="radios-17" value="2">
+                      2
+                    </label>
+                    <label class="radio inline" for="radios-18">
+                      <input type="radio" name="radios4" id="radios-18" value="3">
+                      3
+                    </label>
+                    <label class="radio inline" for="radios-19">
+                      <input type="radio" name="radios4" id="radios-19" value="4" checked="checked">
+                      4
+                </label>
+              </div>
+            </div>
+          </div>
+          </br>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-8 control-label" for="textarea">Please, share with us any additional comment:</label>
+              <div class="col-md-8">                     
+                <textarea id="textarea" placeholder:"your comments" name="textarea"></textarea>
+              </div>
+            </div>
+          </div>
+          </br>
+          <div class="col-sm-6 col-lg-4">
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="submit"></label>
+              <div class="col-md-8 controls">
+                <button id="submit" name="submit" class="btn btn-success">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.row this actually does not appear to be needed with the form-horizontal -->
+      </form>
+        </div>
+    </div>
+    <script>
+      document.getElementById("submit").onclick = function() {submitform()};
+    </script>
+
+  
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                       <div class="col-sm-6 col-lg-4">
+                        <div class="text-center">
+                            <p class="lead" >Tweet about the session and follow us !</p> 
+                            <a class="twitter-timeline"  href="https://twitter.com/InsightIot" data-widget-id="641961154215084032">Tweets de @InsightIot</a>
+                            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
+                              
+                      </div>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/lib/jquery.js"></script>
+
+
+
+</body>
+
+</html>
