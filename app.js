@@ -60,7 +60,7 @@ var dsnString = "DRIVER={DB2};DATABASE=" + credentials.db + ";UID=" + credential
                       credentials.password + ";HOSTNAME=" + credentials.hostname + ";port=" + credentials.port;*/
       /*Connect to the database server*/
 
-var SQLDBconfig = appEnv.getService("dashDB-d9");
+var SQLDBconfig = appEnv.getService(""); // tour service name
 var db2 = SQLDBconfig.credentials;
 db2.db = SQLDBconfig.credentials.db;
 db2.username = SQLDBconfig.credentials.username;
