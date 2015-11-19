@@ -18,8 +18,6 @@ function submitform(){
 	//alert(name +","+email +","+company +","+global_rate +","+iot_before +","+com +","+iot_after +","+bluemix_before +","+bluemix_after );
 
 	$.post('/',{names: name, email: email, company: company, globalrate: global_rate, iotbefore: iot_before, iotafter: iot_after, blmxbefore: bluemix_before, blmxafter: bluemix_after, textarea: com}, function(data){
-	
-		console.log("DATA:" + data);
 		
 	});
 	history.back();	
